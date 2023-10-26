@@ -7,5 +7,5 @@
 ## İndirdiğiniz dosyayı çalıştırmak için ; 
 
 ```bash
-	sh get_req.sh
+sh get_req.sh
 ```
