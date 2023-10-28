@@ -16,15 +16,11 @@ sudo apt-get install -y ros-noetic-navigation
 sudo apt-get install -y ros-noetic-robot-localization
 sudo apt-get install -y ros-noetic-robot-state-publisher
 
-sudo add-apt-repository ppa:borglab/gtsam-release-4.0 -y
-sudo apt update
-sudo apt install libgtsam-dev libgtsam-unstable-dev -y 
-
 sudo apt-get install libgoogle-glog-dev -y
 sudo apt-get install libeigen3-dev -y 
 sudo apt-get install libpcl-dev -y
 sudo apt-get install libomp-dev -y
 
 sudo apt-get install pcl-tools -y
-sudo apt-get install ros-noetic-pcl-*
+sudo apt-get install ros-noetic-pcl-* -y
 
