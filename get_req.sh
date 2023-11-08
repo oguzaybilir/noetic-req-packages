@@ -24,3 +24,5 @@ sudo apt-get install libomp-dev -y
 sudo apt-get install pcl-tools -y
 sudo apt-get install ros-noetic-pcl-* -y
 
+sudo apt-get install ros-noetic-vision-msgs -y
+
