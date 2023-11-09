@@ -16,13 +16,21 @@ sudo apt-get install -y ros-noetic-navigation
 sudo apt-get install -y ros-noetic-robot-localization
 sudo apt-get install -y ros-noetic-robot-state-publisher
 
+sudo apt-get install ros-noetic-pcl-* -y
+sudo apt-get install pcl-tools -y
+sudo apt-get install ros-noetic-vision-msgs -y
+
+echo Temel ROS paketleri kuruldu, ek paketler kuruluyor
+
 sudo apt-get install libgoogle-glog-dev -y
 sudo apt-get install libeigen3-dev -y 
 sudo apt-get install libpcl-dev -y
 sudo apt-get install libomp-dev -y
 
-sudo apt-get install pcl-tools -y
-sudo apt-get install ros-noetic-pcl-* -y
+sudo add-apt-repository ppa:borglab/gtsam-release-4.0
+sudo apt update
+sudo apt install libgtsam-dev libgtsam-unstable-dev
 
-sudo apt-get install ros-noetic-vision-msgs -y
+echo Ek Paketler kuruldu
+
 
